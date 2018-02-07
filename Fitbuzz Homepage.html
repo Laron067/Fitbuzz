@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <body>
+
+      <script>
+        function goBack()
+        {
+          window.history.back()
+        }
+      </script>
+      <button onclick="goBack()">Back</button>
+  	
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="themes/Lmcnair_Module5courseproject_020318.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    
+    <link rel="stylesheet" href="style.css">
+    </body>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="styles/custom.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.5.min.js"></script>
+  </head>
+    
+    <title>FitBuzz</title>
+  <body>
+    <div data-role="header">  <h1><img src="https://image.freepik.com/free-vector/angry-bee-design_1152-57.jpg" alt="Mountain View" style="width:90px;height:90px;">
+    Fitbuzz</h1></div>
+   
+    <br>
+   
+    <div>
+      <div data-role="main" class="nowrap">
+     
+        <span class="nowrap">   Main Navigation </span>
+        <span class="nowrap">    <ul data-role="listview">
+          <a href="Fitbuzz%20Nutrition%20Tips.html"> Nutrition Tips</a>
+          <a href="Fitbuzz%20Workout%20Tips.html"> Workout Tips</a></ul></span></div></div>
+    
+    <section><br><br><br> <p1><b> Have you taken care of yourself today?</b></p1><script type="text/javascript">
+         
+      
+          function startTime()
+          {
+            var today=new Date();
+            var h=today.getHours();
+            var m=today.getMinutes();
+            var s=today.getSeconds();
+            // add a zero in front of numbers<10
+            m=checkTime(m);
+            s=checkTime(s);
+            document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+            t=setTimeout('startTime()',500);
+          }
+          function checkTime(i)
+          {
+            if (i<10)
+            {
+              i="0" + i;
+            }
+            return i;
+          }
+        </script>
+      
+      <body onload="startTime()">
+        <div id="txt"></div></body></section>
+     
+    <aside>
+    <p>
+      <b>FITNESS TREND FOR 2018: HIGH INTENSITY INTERVAL TRAINING</b> <br>
+      Looks like 2018 is going to be sweaty. A high intensity interval training (HIIT) session usually only lasts 30 minutes or less, but requires short bursts of (you guessed it) high intensity exercise followed by a slower-paced recovery period. For instance, you might sprint as hard as you can for 15 to 30 seconds and then walk for 45 to 60 seconds. You’d alternate between the two for a set amount of time.<br><br>
+
+      There’s a reason people can’t get enough of it: The workouts are time efficient and effective if you’re looking to fry fat, research suggests.
+      
+    </p>
+    <br>
+    <img src="https://www.menshealth.com/sites/menshealth.com/files/styles/listicle_slide_custom_user_desktop_1x/public/2018/01/04/1-fitness-trends-2018-hiit.jpg?itok=sStoOy9K" alt="Mountain View" style="width:480px;height:200px;">
+    </aside>
+    <div class="footer">
+
+    <div data-role="footer">
+      <p>Copyright © 2018 Fitbuzz </p>
+      </div></div>
+    
+    
+      
+    
+  </body>
+  </html>

@@ -1,0 +1,44 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 19%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 75%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.nowrap {
+  white-space: nowrap ;
+}
+
+h1 {
+  font-family: "Bauhaus 93", serif;
+  font-size: 48px;
+  color: darkgoldenrod;
+  text-align: center
+}
